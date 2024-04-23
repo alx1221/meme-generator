@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="meme-generator">
+        <label>Select an image</label>
+        <input type="file" id="imageFileInput">
+        <label>Top text</label>
+        <input type="text" id="topTextInput">
+        <label>Bottom</label> text</label>
+        <input type="text" id="bottomTextInput">
+      </div>
+    
+    
+      <canvas id="meme"></canvas>
+    
+      <style>
+        .meme-generator{
+            margin: 20px auto;
+            width: 400px;
+            font-family: sans-serif;
+        }
+        .meme-generator label{
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .meme-generator input{
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        } 
+        #meme {
+            width: 100%;
+        }
+      </style>
+    <script src="script.js"></script>
+</body>
+</html>
